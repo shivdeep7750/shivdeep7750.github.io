@@ -1,1 +1,4 @@
 # webhost
+---
+permalink: /index.html
+---
