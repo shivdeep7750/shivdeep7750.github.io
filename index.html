@@ -6,6 +6,8 @@
     <link type="image/ico" rel="icon" href="/logo.png"/>
     <audio loop="true" autoplay><source src="/bgmusic.mp3" type="audio/mp3"></audio>
     <link rel="stylesheet" href="/firstcss.css">
+        <link rel="javascript" href="/timer.js">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Quizard - Home</title>
 </head>
@@ -98,12 +100,13 @@ background-position: center; }
 <br>
 <br>
 
-<footer >
+<footer onload="startTime()">
 
 
 
     <div class="social">
        <em> All rights reserved by <cite href="https://www.facebook.com">Shivdeep Singh Bais&copy;</cite> Ph: +91-7727884582</em>
+        Last Update:<time></time>
         <center>
             <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
