@@ -23,7 +23,7 @@
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: floralwhite;
     margin-left: 55px;
     margin-right: 55px;
