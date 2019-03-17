@@ -17,7 +17,11 @@
 .form {
   position: relative;
   z-index: 1;
-  background:#ffffff;
+  background: rgb(35,144,128) /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, rgb(35,144,128), #7ea568);
+  background: -moz-linear-gradient(right,rgb(35,144,128), #7ea568);
+  background: -o-linear-gradient(right,rgb(35,144,128), #7ea568);
+  background: linear-gradient(to left, rgb(35,144,128), #7ea568);
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
