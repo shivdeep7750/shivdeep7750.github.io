@@ -114,23 +114,16 @@ body {
    $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
 });
     </script>
-    <title>Quizard - Login/Sign Up</title>
+    <title>Quizard - Login</title>
 </head>
    <body>
   <div class="login-page">
   <div class="form">
-    <form class="register-form">
-      <input type="text" placeholder="name"/>
-      <input type="password" placeholder="password"/>
-      <input type="text" placeholder="email address"/>
-      <button>create</button>
-      <p class="message">Already registered? <a href="/login.html">Sign In</a></p>
-    </form>
     <form id="login-form">
       <input type="text" placeholder="username"/>
       <input type="password" placeholder="password"/>
       <button>login</button>
-      <p class="message">Not registered? <button onclick="document.getElementById("login-form").style.display="none">Create an account</button></p>
+      <p class="message">Not registered? <a href="">Create an account</a></p>
     </form>
   </div>
 </div>
